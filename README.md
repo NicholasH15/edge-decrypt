@@ -12,7 +12,7 @@ Extracts passwords from Edge and sends them over HTTPS to the server specified i
 
 ## Dependencies
 ```
-Python interpreter
+Python 3
 pip install requests pywin32 pycryptodome
 ```
 
