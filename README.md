@@ -10,6 +10,11 @@ Modifies the HKCU registry to point COM requests to elevation_service.exe to a n
 ## extract.py
 Extracts passwords from Edge and sends them over HTTPS to the server specified in URL
 
+## Dependencies
+pip install requests
+pip install pywin32
+pip install pycryptodome
+
 ## Credits
 This project implements the technique described in:
 https://www.cyberark.com/resources/threat-research-blog/c4-bomb-blowing-up-chromes-appbound-cookie-encryption
